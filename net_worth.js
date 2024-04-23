@@ -1,8 +1,8 @@
 "use strict"
 
-var asset = 100;
+var asset = 200;
 
-var debt = 10;
+var debt = 20;
 
 var netWorth = asset - debt;
 
