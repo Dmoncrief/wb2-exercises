@@ -18,7 +18,7 @@ var overtimeRate = payRate * 1.5;
 if (hoursWorked <= 40) {
 
 
-    gorssPay = payRate * hoursWorked;
+    grossPay = payRate * hoursWorked;
 }
 else { 
     grossPay =  (40 * payRate)  + (hoursWorked -40) * payRate * 1.5
