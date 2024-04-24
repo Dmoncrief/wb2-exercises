@@ -21,8 +21,5 @@ howManyBoxesToBuy = roomSquareFeet / tilesPerBox;
 howManyBoxesToBuy = Math.ceil(howManyBoxestoBuy);
 
 // Display the results.
-var message = "for a " + roomLenghth + "x" + roomWidth
-+" room ("+ roomSquarefeet  "sqft) " you need to purchase " + howManyBoxesToBuy + " boxes"
 
-
-console.log(message);
+console.log("How many boxes to buy is: " + howManyBoxesToBuy);

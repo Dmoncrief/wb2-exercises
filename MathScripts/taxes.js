@@ -2,12 +2,13 @@
 
 // Declare known values
 
-var fedralTaxRate = 0.23;
-var monthlySalary = 1000;
+var federalTaxRate = 0.23;
+var monthlySalary = 6000;
 
-//  Establish what
-var amountWithheld;
+//  Establish what is witheld
+var amountWithheld = monthlySalary * federalTaxRate;
+
 
 //  Do the calculation 
 
-var 
+console.log("The amount withheld is: " + amountWithheld);
