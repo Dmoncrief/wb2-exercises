@@ -12,6 +12,6 @@ var vansNeeded = Math.ceil(people / vans);
 
 //  Output for van cost
 
-console.log(" The vans needed is:" vansNeeded);
-console.log(" The total cost is: " totalCost);
-console.log(" The cost per person is: " costPerPerson);
+console.log(" The vans needed is:" + vansNeeded);
+console.log(" The total cost is: " + totalCost);
+console.log(" The cost per person is: " + costPerPerson);

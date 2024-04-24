@@ -18,7 +18,7 @@ roomSquareFeet = roomLength * roomWidth;
 howManyBoxesToBuy = roomSquareFeet / tilesPerBox;
 
 
-howManyBoxesToBuy = Math.ceil(howManyBoxestoBuy);
+howManyBoxesToBuy = Math.ceil(howManyBoxesToBuy);
 
 // Display the results.
 
