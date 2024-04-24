@@ -93,10 +93,10 @@ var d = "Number 5  ";
 
 // Convert each using the (+) operator
 
-var a =  (a);
-var b = Number(b);
-var c = Number(c);
-var d = Number(d);
+var a = + (a);
+var b = + (b);
+var c = + (c);
+var d = + (d);
 
 var e = a + b + c + d;
 
