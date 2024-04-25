@@ -28,6 +28,6 @@ if (currentHour < 10) {
 
     //  Display result 
     console.log(greeting);
-// ------------------------------------------------------------
+
 
 
