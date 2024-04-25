@@ -7,7 +7,7 @@ var studentMajor;
 var majorCode = "BIOL";
 var departmentOffice;
 
-// statement;
+// statements to fill out
 
 if (majorCode == "BIOL") {
     studentMajor = "Biology";
@@ -29,10 +29,9 @@ if (majorCode == "BIOL") {
     departmentOffice = "Nothing";
 }
 
-// Display results
+// Display the results
 
-console.log(
-    "Student: " + studentName,
-    "\n" + "Major: "  + studentMajor,
-    "\n" + "Advising Location: "  + departmentOffice
-);
+console.log("student: " + studentName);
+console.log("major: " + majorCode);
+console.log("Advising location " + departmentOffice);
+    
