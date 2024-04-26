@@ -17,7 +17,7 @@ function onGreetUserBtnClcicked() {
 const answerElement = document.getElementById("answerField")
 
 
-// create buttons
+// For buttons
 
 const addBtn = document.getElementById("addBtn");
 const subtractBtn = document.getElemenyById("subtractBtn");
