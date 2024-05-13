@@ -2,13 +2,23 @@
 
 window.onload = init;
 
-function init(){
-    const helloBtnElement = document.getElementById("helloBtn");
-    helloBtnElement.onclick = onGreetuserBtnClicked;
-    console.log("index.js init() executed");
+function init() {
+  const greetBtn = document.getElementById("greetBtn");
+  greetBtn.onclick = onGreetUserBtnClicked;
 }
 
+function onGreetUserBtnClicked() {
+  // find the name text field using getElementById
+  const nameField = document.getElementById("nameField");
 
-function onGreetUserBtnClcicked() {
-    alert("Hello User Name Here");
+  // extract the name from the text field
+  let name = nameField.value;
+
+  // use the name to create a string the ctontains "Hello usernamehere"
+  let message = "Hello " + name + "!";
+  console.log(message);
+
+  //display the message using alert
+
+  alert(message);
 }
